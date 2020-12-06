@@ -17,6 +17,9 @@ $(NAME): compile
 compile:
 	javac -d build $(SRCS)
 
+run:
+	java -jar $(NAME)
+
 clean:
 	rm -fr build
 
